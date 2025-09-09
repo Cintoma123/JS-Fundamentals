@@ -3,6 +3,7 @@
 const x = 'C is fun';
 for (let i = 0; i < 5; i++) {
   console.log(x);
+  console.log(x);
 }
 if (isNaN(x)) {
   console.log('Missing number of occurrences');

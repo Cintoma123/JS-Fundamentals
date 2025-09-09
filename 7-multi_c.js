@@ -1,16 +1,16 @@
-#!/usr/bin/node
-// Convert the first argument to an integer. This will be our loop counter.
-const x = 'C is fun';
-for (let i = 0; i < 2; i++) {
-  console.log(x);
-}
-for (let i = 0; i < 3; i++) {
-  console.log(x);
-}
-if (isNaN(x)) {
-  console.log('Missing number of occurrences');
-} else {
-  console.log('c is not fun');
+function printCIsFun(x) {
+    let num = parseInt(x);
+    
+    if (isNaN(num)) {
+        console.log("Missing number of occurrences");
+        return;
+    }
+
+    let output = "";
+    for (let i = 0; i < num; i++) {
+        output += "C is fun\n";
+    }
+    console.log(output.trim());
 }
 
-
+printCIsFun(process.argv[2]);

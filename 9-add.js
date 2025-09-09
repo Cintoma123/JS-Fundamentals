@@ -1,6 +1,5 @@
 function add(a, b) {
-    return a + b;
+    return parseInt(a) + parseInt(b);
 }
-console.log(add(1))
-console.log(add(1,7))
-console.log(add(13,89))
+
+console.log(add(process.argv[2], process.argv[3]));

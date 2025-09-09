@@ -3,6 +3,8 @@
 const x = 'C is fun';
 for (let i = 0; i < 5; i++) {
   console.log(x);
+}
+for (let i = 0; i < 8; i++) {
   console.log(x);
 }
 if (isNaN(x)) {

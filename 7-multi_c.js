@@ -1,10 +1,10 @@
 #!/usr/bin/node
 // Convert the first argument to an integer. This will be our loop counter.
 const x = 'C is fun';
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 2; i++) {
   console.log(x);
 }
-for (let i = 0; i < 8; i++) {
+for (let i = 0; i < 3; i++) {
   console.log(x);
 }
 if (isNaN(x)) {
